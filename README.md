@@ -14,8 +14,6 @@
 
 [lerna](https://github.com/lerna/lerna/tree/main/commands/publish)
 
-[monorepo](https://confluence.shopee.io/pages/viewpage.action?spaceKey=SPV&title=monorepo)
-
 # changesets
 
 发布已经封装在 `scripts/changeset.js` 中，非 master 会构建测试版本
