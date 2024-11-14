@@ -1,0 +1,20 @@
+{
+  "name": "pnpm-changesets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf node_modules **/*/node_modules",
+    "build": "pnpm --filter '@frorz/*' build",
+    "release": "node scripts/changeset.js",
+    "cs": "changeset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "typescript": "^4.5.4"
+  }
+}
